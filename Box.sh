@@ -329,7 +329,7 @@ while true; do
         ;;
 
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
 
@@ -680,7 +680,7 @@ while true; do
         esac
         ;;
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
       *)
@@ -768,7 +768,7 @@ while true; do
         wget -qO- bench.sh | bash
         ;;
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
       *)
@@ -908,7 +908,7 @@ while true; do
         esac
         ;;
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
       *)
@@ -1757,7 +1757,7 @@ while true; do
         ;;
 
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
 
@@ -2842,7 +2842,7 @@ while true; do
         ;;
 
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
       *)
@@ -2977,7 +2977,7 @@ while true; do
         tmux list-sessions
         ;;
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
       *)
@@ -3400,7 +3400,7 @@ while true; do
         ;;
 
       0)
-        /root/kejilion.sh
+        /root/Box.sh
         exit
         ;;
       *)
