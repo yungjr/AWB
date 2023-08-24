@@ -3010,6 +3010,8 @@ while true; do
       echo "10. 切换优先ipv4/ipv6"
       echo "11. 查看端口占用状态"
       echo "------------------------"
+      echo "12. SWAP一键安装/卸载脚本"
+      echo "------------------------"
       echo "21. 留言板"
       echo "------------------------"
       echo "0. 返回主菜单"
@@ -3338,6 +3340,12 @@ while true; do
       11)
         clear
         ss -tulnape
+        ;;
+
+      12)
+      # swap 虛擬內存 SWAP一键安装/卸载脚本
+      clear
+        wget -qO- https://raw.githubusercontent.com/yungjr/ChangeSource/main/swap.sh | bash
         ;;
 
       \
