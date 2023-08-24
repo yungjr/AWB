@@ -3346,7 +3346,7 @@ while true; do
       12)
       # swap 虛擬內存 SWAP一键安装/卸载脚本
       clear
-      wget -qO- https://raw.githubusercontent.com/yungjr/AWB/main/ChangeSource/swap.sh | bash
+      wget https://raw.githubusercontent.com/yungjr/AWB/main/ChangeSource/swap.sh | bash
         ;;
 
       \
