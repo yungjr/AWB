@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#Blog:https://www.moerats.com/
+
 Green="\033[32m"
 Font="\033[0m"
 Red="\033[31m" 
@@ -80,6 +82,7 @@ case "$num" in
     *)
     clear
     echo -e "${Green}请输入正确数字 [1-2]${Font}"
+    sleep 2s
     main
     ;;
     esac
