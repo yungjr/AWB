@@ -3,6 +3,7 @@
 while true; do
 clear
 
+#更新系統 apt update -y  && apt upgrade -y && apt install -y curl wget sudo socat unzip tar htop
 #執行代碼 curl -sS -O https://raw.githubusercontent.com/yungjr/AWB/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh
 #特殊符號文字生成網站_https://www.megaemoji.com/cn/generators/tarty/
 echo -e "\033[96m
